@@ -1,13 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="umg.progra2.Ejercicio3Form">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="20" y="20" width="530" height="587"/>
     </constraints>
     <properties/>
     <border type="none"/>
-    <children/>
+    <children>
+      <grid id="edfbf" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="40806" class="javax.swing.JButton" binding="btnCrear">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13037254"/>
+              <focusPainted value="false"/>
+              <font name="Bebas Neue" size="18" style="0"/>
+              <foreground color="-394241"/>
+              <text value="Crear"/>
+            </properties>
+          </component>
+          <component id="32b59" class="javax.swing.JButton" binding="btnEliminar">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13037254"/>
+              <focusPainted value="false"/>
+              <font name="Bebas Neue" size="18" style="0"/>
+              <foreground color="-394241"/>
+              <text value="Eliminar"/>
+            </properties>
+          </component>
+          <component id="8c985" class="javax.swing.JButton" binding="btnLeer">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13037254"/>
+              <focusPainted value="false"/>
+              <font name="Bebas Neue" size="18" style="0"/>
+              <foreground color="-394241"/>
+              <text value="Leer"/>
+            </properties>
+          </component>
+          <component id="732a6" class="javax.swing.JButton" binding="btnActualizar">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13037254"/>
+              <focusPainted value="false"/>
+              <font name="Bebas Neue" size="18" style="0"/>
+              <foreground color="-394241"/>
+              <text value="Actualizar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="f2420" class="javax.swing.JTextField" binding="txtIdEquipo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="41a53" class="javax.swing.JTextField" binding="txtNombre">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="95d71" class="javax.swing.JLabel" binding="lblNombre">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="bd175" class="javax.swing.JTextField" binding="txtPais">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="23348" class="javax.swing.JLabel" binding="lblPais">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Pais"/>
+        </properties>
+      </component>
+      <component id="3d890" class="javax.swing.JTextField" binding="txtCiudad">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="85989" class="javax.swing.JLabel" binding="lblCiudad">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Ciudad"/>
+        </properties>
+      </component>
+      <component id="2558c" class="javax.swing.JTextField" binding="txtEstadio">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="bdb69" class="javax.swing.JLabel" binding="lblEstadio">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Estadio"/>
+        </properties>
+      </component>
+      <component id="1a353" class="javax.swing.JTextField" binding="txtFundacion">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="3e5b" class="javax.swing.JLabel" binding="lblFundacion">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Fundación"/>
+        </properties>
+      </component>
+      <component id="8f2d5" class="javax.swing.JTextField" binding="txtEntrenador">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="cce61" class="javax.swing.JLabel" binding="lblEntrenador">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Entrenador"/>
+        </properties>
+      </component>
+      <component id="cddfa" class="javax.swing.JTextField" binding="txtWebOficial">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="bd8b2" class="javax.swing.JLabel" binding="lblWebOficial">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Web Oficial"/>
+        </properties>
+      </component>
+      <component id="85615" class="javax.swing.JTextField" binding="txtFacebook">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="a8abd" class="javax.swing.JLabel" binding="lblFacebook">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Facebook"/>
+        </properties>
+      </component>
+      <component id="52072" class="javax.swing.JTextField" binding="txtInstagram">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="446fe" class="javax.swing.JTextField" binding="txtTwitter">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="e2a30" class="javax.swing.JLabel" binding="lblTwitter">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Twitter"/>
+        </properties>
+      </component>
+      <component id="903c0" class="javax.swing.JTextField" binding="txtPatrocinador">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="14" style="2"/>
+        </properties>
+      </component>
+      <component id="eec68" class="javax.swing.JLabel" binding="lblInstagram">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Instagram"/>
+        </properties>
+      </component>
+      <component id="41e27" class="javax.swing.JLabel" binding="lblPatrocinador">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Patrocinador"/>
+        </properties>
+      </component>
+      <component id="8b381" class="javax.swing.JLabel" binding="lblIdEquipo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Playball" size="18"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="ID Equipo"/>
+        </properties>
+      </component>
+    </children>
   </grid>
 </form>
