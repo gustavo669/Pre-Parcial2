@@ -1,4 +1,4 @@
-package umg.progra2.Dao;
+package umg.progra2.Model;
 
 import java.sql.Date;
 
